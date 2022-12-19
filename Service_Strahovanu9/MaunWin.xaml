@@ -73,8 +73,9 @@
                 </Style>
             </StackPanel.Resources>
             <Button x:Name="Y4etka" Content="Учетная запись" Foreground="White"  FontSize="16"/>
- 
-            <Button x:Name="ExitSystem" Grid.Row="9"   Content="Выйти из системы" Foreground="White"  FontSize="16"    />
+            <Button x:Name="OstavutZa9vky" Grid.Row="9"   Content="Оставить заявку" Foreground="White"  FontSize="16"    />
+            <Button x:Name="ProsmotrZa9vok" Grid.Row="9"   Content="Просмотреть ваши заявки" Foreground="White"  FontSize="16"    />
+            <Button x:Name="ExitSystem" Grid.Row="9"   Content="Выйти в окно входа" Foreground="White"  FontSize="16"    />
         </StackPanel>
         <Frame NavigationUIVisibility="Hidden" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2" x:Name="Menu"/>
     </Grid>
